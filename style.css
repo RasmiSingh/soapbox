@@ -1,0 +1,91 @@
+*{
+	margin:0;
+ 	padding: 0;
+ 	background-color: floralwhite;
+}
+.navbar{
+	display: flex;
+	padding: 20px 60px;
+}
+.navlogo{
+	padding: 4px 8px;
+	background: salmon;
+	border-radius: none;
+	color: floralwhite;
+	font-size: 30px;
+	font-weight: bold;
+	transition: 0.5s;
+	font-family: roboto;
+}
+.navlinks{
+	flex: 1;
+	font-family: roboto;
+}
+.navlinks ul{
+	margin-left: 50px;
+	display: inline;
+}
+.navlinks ul li{
+	list-style: none;
+	display: inline-block;
+	float: right;
+	padding: 10px 25px;
+}
+.navlinks ul li a{
+	color: salmon;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.navlinks ul li::after{
+	content: '';
+	width: 0;
+	height: 2px;
+	background: salmon;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.navlinks ul li:hover::after{
+	width: 100%;
+}
+.btn{
+	margin: 2px 0px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: salmon;
+	font-weight: normal;
+	border: 0;
+	cursor: pointer;
+	outline: none;
+	margin: 10px;
+	color: white;
+}
+.cta {
+	text-align: center;
+	padding: 10px;
+	border: 2px solid salmon;
+	margin: 20px 300px;
+}
+.homecontent{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 200px;
+}
+.xfactors{
+}
+img {
+width: 60%;
+height: 60%;
+float: right;
+padding-right: 200px;
+}
+h1{
+	font-size: 25px;
+}
+h1, p {
+	color: navy;
+	font-family: roboto;
+}
